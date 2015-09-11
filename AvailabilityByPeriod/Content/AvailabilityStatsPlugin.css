@@ -1,0 +1,76 @@
+a:hover {
+	text-decoration: none
+}
+
+#mainContainer {
+    padding: 50px;
+}
+#testBlock {
+	width: 50%;
+	min-width: 300px;
+}
+
+#testBlock .panel-heading{
+  border: none;
+  background-color: white;
+  background-image: none;
+}
+
+#testBlock .panel-heading .glyphicon {
+	margin-left: 5px;
+}
+
+#testBlock .panel-heading a {
+	color: rgba(0, 0, 0, 0.69);
+}
+
+#insideBlock {
+	margin: 0 auto;
+	width: 50%;
+	min-width: 300px;	
+}
+
+.panel-default > .panel-heading-custom {
+	background: transparent; 
+	color: rgba(0, 0, 0, 0.69);
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+#middleAvailability {
+	text-align: center;
+}
+
+#insideBlock .btn-link {
+	text-decoration: underline;
+}
+#middleValue {
+	font-size: 30px;
+}
+#barChart {
+	border-top: 1px solid #ccc;
+	font-size: 10px;
+	padding-top: 15px;
+}
+#timeSelect {
+	width: auto;
+}
+.panel-heading a {
+	padding-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#timeTable {
+	border-top: 1px solid #ccc;
+	margin-bottom: 0;
+}
+#timeTable th, #timeTable td {
+	text-align: center;
+	padding: 0;
+}
+#availabilityValues {
+	text-align: center;
+}
+#availabilityValues .btn-link {
+	font-size: 20px;
+}
